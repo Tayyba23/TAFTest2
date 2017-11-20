@@ -11,12 +11,12 @@ node {
             bat "test.bat"
         }
         stage ('Tests') {
-            
+            parallel
             'unit': {
                 //call taf , add atleast 10 tables
-             bat   "C:\Program Files\Java\jre1.8.0_91\bin\java" -jar target\tafd.jar
+             bat   "C:\Program Files\Java\jre1.8.0_91\bin\java" -jar target\tafd.jar;
                 bat "echo 'shell scripts to run unit tests...'"
-            },
+            }
             
         }
         stage ('Deploy') {
