@@ -10,14 +10,16 @@ node {
         stage ('Build') {
             bat "test.bat"
         }
-        stage ('Tests') {
-            parallel
+       stage ('Tests') {
+            parallel 'static': {
+                bat "echo 'shell scripts to run static tests...'"
+            },
             'unit': {
-                //call taf , add atleast 10 tables
-             bat   "C:\Program Files\Java\jre1.8.0_91\bin\java" -jar target\tafd.jar;
                 bat "echo 'shell scripts to run unit tests...'"
+            },
+            'integration': {
+                bat "echo 'shell scripts to run integration tests...'"
             }
-            
         }
         stage ('Deploy') {
             //update dashboard
