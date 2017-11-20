@@ -8,14 +8,14 @@ node {
             
         }
         stage ('Build') {
-            bat "test.bat"
+           
         }
        stage ('Tests') {
             parallel 'static': {
                 bat "echo 'shell scripts to run static tests...'"
             },
             'unit': {
-                bat "echo 'shell scripts to run unit tests...'"
+                bat "\"C:\Program Files\Java\jre1.8.0_91\bin\java\" -jar target\tafd.jar"
             },
             'integration': {
                 bat "echo 'shell scripts to run integration tests...'"
