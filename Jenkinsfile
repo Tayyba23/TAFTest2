@@ -15,7 +15,7 @@ node {
                 bat "echo 'shell scripts to run static tests...'"
             },
             'unit': {
-                bat "java -jar target\tafd.jar"
+                bat "java -jar target\\tafd.jar"
             },
             'integration': {
                 bat "echo 'shell scripts to run integration tests...'"
