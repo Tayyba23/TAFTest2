@@ -1,4 +1,4 @@
-BTEQ 15.10.01.01 Mon Nov 20 19:15:06 2017 PID: 13320
+BTEQ 15.10.01.01 Tue Nov 21 12:02:59 2017 PID: 16744
  
 +---------+---------+---------+---------+---------+---------+---------+----
 .logon 153.65.144.102/dbc,
@@ -629,42 +629,42 @@ rchar(50), int_layer_tbl varchar(50), int_layer_script varchar(100));
 
 +---------+---------+---------+---------+---------+---------+---------+----
 
-insert into TAFD_DB.Inp_Config_Param values ('1.177', '2017.11.20.19.15.06'
+insert into TAFD_DB.Inp_Config_Param values ('1.181', '2017.11.21.12.02.58'
 , 'Hostname', '153.65.144.102', '');insert into TAFD_DB.Inp_Config_Param v
-alues ('1.177', '2017.11.20.19.15.06', 'Database', 'TAFD_DB', '');insert i
-nto TAFD_DB.Inp_Config_Param values ('1.177', '2017.11.20.19.15.06', 'User
-name', 'dbc', '');insert into TAFD_DB.Inp_Config_Param values ('1.177', '2
-017.11.20.19.15.06', 'Password', 'dbc', '');insert into TAFD_DB.Inp_Config
-_Param values ('1.177', '2017.11.20.19.15.06', 'Modules To Run', 'all', ''
-);insert into TAFD_DB.Inp_Config_Param values ('1.177', '2017.11.20.19.15.
-06', 'Business Date', '42705.0', '');insert into TAFD_DB.Inp_Config_Param 
-values ('1.177', '2017.11.20.19.15.06', 'Server Access Username', '', '');
-insert into TAFD_DB.Inp_Config_Param values ('1.177', '2017.11.20.19.15.06
+alues ('1.181', '2017.11.21.12.02.58', 'Database', 'TAFD_DB', '');insert i
+nto TAFD_DB.Inp_Config_Param values ('1.181', '2017.11.21.12.02.58', 'User
+name', 'dbc', '');insert into TAFD_DB.Inp_Config_Param values ('1.181', '2
+017.11.21.12.02.58', 'Password', 'dbc', '');insert into TAFD_DB.Inp_Config
+_Param values ('1.181', '2017.11.21.12.02.58', 'Modules To Run', 'all', ''
+);insert into TAFD_DB.Inp_Config_Param values ('1.181', '2017.11.21.12.02.
+58', 'Business Date', '42705.0', '');insert into TAFD_DB.Inp_Config_Param 
+values ('1.181', '2017.11.21.12.02.58', 'Server Access Username', '', '');
+insert into TAFD_DB.Inp_Config_Param values ('1.181', '2017.11.21.12.02.58
 ', 'Server Access Password', '', '');insert into TAFD_DB.Inp_Config_Param 
-values ('1.177', '2017.11.20.19.15.06', 'Release Package ID', 'A', '');ins
-ert into TAFD_DB.Inp_Config_Param values ('1.177', '2017.11.20.19.15.06', 
+values ('1.181', '2017.11.21.12.02.58', 'Release Package ID', 'A', '');ins
+ert into TAFD_DB.Inp_Config_Param values ('1.181', '2017.11.21.12.02.58', 
 'Reset Test Cycle', 'F', '');insert into TAFD_DB.Inp_Config_Param values (
-'1.177', '2017.11.20.19.15.06', 'All Teradata Hosts', '153.65.144.102', ''
-);insert into TAFD_DB.Inp_Config_Param values ('1.177', '2017.11.20.19.15.
-06', 'All Teradata Users', 'dbc', '');insert into TAFD_DB.Inp_Config_Param
- values ('1.177', '2017.11.20.19.15.06', 'All Teradata Passwords', 'dbc', 
-'');insert into TAFD_DB.Inp_Config_Param values ('1.177', '2017.11.20.19.1
-5.06', 'High Date', '9999-12-31 23:59:59', '');insert into TAFD_DB.Inp_Con
-fig_Param values ('1.177', '2017.11.20.19.15.06', 'script_execution_server
-_hostname', '', '');insert into TAFD_DB.Inp_Config_Param values ('1.177', 
-'2017.11.20.19.15.06', 'script_execution_server_username', '', '');insert 
-into TAFD_DB.Inp_Config_Param values ('1.177', '2017.11.20.19.15.06', 'scr
+'1.181', '2017.11.21.12.02.58', 'All Teradata Hosts', '153.65.144.102', ''
+);insert into TAFD_DB.Inp_Config_Param values ('1.181', '2017.11.21.12.02.
+58', 'All Teradata Users', 'dbc', '');insert into TAFD_DB.Inp_Config_Param
+ values ('1.181', '2017.11.21.12.02.58', 'All Teradata Passwords', 'dbc', 
+'');insert into TAFD_DB.Inp_Config_Param values ('1.181', '2017.11.21.12.0
+2.58', 'High Date', '9999-12-31 23:59:59', '');insert into TAFD_DB.Inp_Con
+fig_Param values ('1.181', '2017.11.21.12.02.58', 'script_execution_server
+_hostname', '', '');insert into TAFD_DB.Inp_Config_Param values ('1.181', 
+'2017.11.21.12.02.58', 'script_execution_server_username', '', '');insert 
+into TAFD_DB.Inp_Config_Param values ('1.181', '2017.11.21.12.02.58', 'scr
 ipt_execution_server_password', '', '');insert into TAFD_DB.Inp_Config_Par
-am values ('1.177', '2017.11.20.19.15.06', 'BTEQ File Extensions', 'bt,bte
-q,btq', '');insert into TAFD_DB.Inp_Config_Param values ('1.177', '2017.11
-.20.19.15.06', 'FASTLOAD File Extensions', 'fld,fl', '');insert into TAFD_
-DB.Inp_Config_Param values ('1.177', '2017.11.20.19.15.06', 'MULTILOAD Fil
+am values ('1.181', '2017.11.21.12.02.58', 'BTEQ File Extensions', 'bt,bte
+q,btq', '');insert into TAFD_DB.Inp_Config_Param values ('1.181', '2017.11
+.21.12.02.58', 'FASTLOAD File Extensions', 'fld,fl', '');insert into TAFD_
+DB.Inp_Config_Param values ('1.181', '2017.11.21.12.02.58', 'MULTILOAD Fil
 e Extensions', 'mld,ml', '');insert into TAFD_DB.Inp_Config_Param values (
-'1.177', '2017.11.20.19.15.06', 'TPT File Extensions', 'tpt', '');insert i
-nto TAFD_DB.Inp_Config_Param values ('1.177', '2017.11.20.19.15.06', 'exec
-ute_remotely', 'T', '');insert into TAFD_DB.Inp_Config_Param values ('1.17
-7', '2017.11.20.19.15.06', 'Create Result Tables', 'T', '');insert into TA
-FD_DB.Inp_Config_Param values ('1.177', '2017.11.20.19.15.06', 'Continue E
+'1.181', '2017.11.21.12.02.58', 'TPT File Extensions', 'tpt', '');insert i
+nto TAFD_DB.Inp_Config_Param values ('1.181', '2017.11.21.12.02.58', 'exec
+ute_remotely', 'T', '');insert into TAFD_DB.Inp_Config_Param values ('1.18
+1', '2017.11.21.12.02.58', 'Create Result Tables', 'T', '');insert into TA
+FD_DB.Inp_Config_Param values ('1.181', '2017.11.21.12.02.58', 'Continue E
 xecution If Objects Do Not Exist', 'T', '');
 
  *** Insert completed. One row added. 
@@ -719,30 +719,14 @@ xecution If Objects Do Not Exist', 'T', '');
 
 +---------+---------+---------+---------+---------+---------+---------+----
 
-insert into TAFD_DB.Inp_Row_Count_And_Metrics values ('1.177', '2017.11.20.
-19.15.06', '1', '1', 'TAF1', 'DBC', 'Accounts', 1, 'DBC', 'Accounts', 1, '
-NA', 'Y', 'Y', 'Y', 'Y', 'Y', 'NA');insert into TAFD_DB.Inp_Row_Count_And_
-Metrics values ('1.177', '2017.11.20.19.15.06', '1', '1', 'TAF2', 'TAFD_DB
-', 'test_tbl', 1, 'TAFD_DB', 'test_tbl', 1, 'NA', 'Y', 'Y', 'Y', 'Y', 'Y',
- 'NA');insert into TAFD_DB.Inp_Row_Count_And_Metrics values ('1.177', '201
-7.11.20.19.15.06', '1', '1', 'TAF2', 'TAFD_DB', 'test_tbl2', 1, 'TAFD_DB',
- 'test_tbl2', 1, 'NA', 'Y', 'Y', 'Y', 'Y', 'Y', 'NA');insert into TAFD_DB.
-Inp_Row_Count_And_Metrics values ('1.177', '2017.11.20.19.15.06', '1', '1'
-, 'TAF3', 'TAFD_DB', 'varchar_tbl', 1, 'TAFD_DB', 'varchar_tbl', 1, 'NA', 
-'Y', 'Y', 'Y', 'Y', 'Y', 'NA');insert into TAFD_DB.Inp_Row_Count_And_Metri
-cs values ('1.177', '2017.11.20.19.15.06', '1', '1', 'TAF4', 'TAFD_DB', 'c
-ustomer', 1, 'TAFD_DB', 'customer', 1, 'NA', 'Y', 'Y', 'Y', 'Y', 'Y', 'NA'
-);insert into TAFD_DB.Inp_Row_Count_And_Metrics values ('1.177', '2017.11.
-20.19.15.06', '1', '1', 'TAF5', 'TAFD_DB', 'credit_tran', 1, 'TAFD_DB', 'c
-redit_tran', 1, 'NA', 'Y', 'Y', 'Y', 'Y', 'Y', 'NA');insert into TAFD_DB.I
-np_Row_Count_And_Metrics values ('1.177', '2017.11.20.19.15.06', '1', '1',
- 'TAF6', 'TAFD_DB', 'credit_acct', 1, 'TAFD_DB', 'credit_acct', 1, 'NA', '
-Y', 'Y', 'Y', 'Y', 'Y', 'NA');insert into TAFD_DB.Inp_Row_Count_And_Metric
-s values ('1.177', '2017.11.20.19.15.06', '1', '1', 'TAF7', 'TAFD_DB', 'ch
-ecking_acct', 1, 'TAFD_DB', 'checking_acct', 1, 'NA', 'Y', 'Y', 'Y', 'Y', 
-'Y', 'NA');insert into TAFD_DB.Inp_Row_Count_And_Metrics values ('1.177', 
-'2017.11.20.19.15.06', '1', '1', 'TAF9', 'TAFD_DB', 'accts', 1, 'TAFD_DB',
- 'accts', 1, 'NA', 'Y', 'Y', 'Y', 'Y', 'Y', 'NA');
+insert into TAFD_DB.Inp_Row_Count_And_Metrics values ('1.181', '2017.11.21.
+12.02.58', '1', '1', 'TAFPipe1', 'DBC', 'Accounts', 1, 'DBC', 'Accounts', 
+1, 'NA', 'Y', 'Y', 'Y', 'Y', 'Y', 'NA');insert into TAFD_DB.Inp_Row_Count_
+And_Metrics values ('1.181', '2017.11.21.12.02.58', '1', '1', 'TAFPipe1', 
+'TAFD_DB', 'test_tbl2', 1, 'TAFD_DB', 'test_tbl2', 1, 'NA', 'Y', 'Y', 'Y',
+ 'Y', 'Y', 'NA');insert into TAFD_DB.Inp_Row_Count_And_Metrics values ('1.
+181', '2017.11.21.12.02.58', '1', '1', 'TAFPipe1', 'TAFD_DB', 'credit_tran
+', 1, 'TAFD_DB', 'credit_tran', 1, 'NA', 'Y', 'Y', 'Y', 'Y', 'Y', 'NA');
 
  *** Insert completed. One row added. 
  *** Total elapsed time was 1 second.
@@ -752,28 +736,16 @@ ecking_acct', 1, 'TAFD_DB', 'checking_acct', 1, 'NA', 'Y', 'Y', 'Y', 'Y',
 
  *** Insert completed. One row added. 
 
- *** Insert completed. One row added. 
-
- *** Insert completed. One row added. 
-
- *** Insert completed. One row added. 
-
- *** Insert completed. One row added. 
-
- *** Insert completed. One row added. 
-
- *** Insert completed. One row added. 
-
 +---------+---------+---------+---------+---------+---------+---------+----
 
-insert into TAFD_DB.Inp_Release_Package_Info values ('1.177', '2017.11.20.1
-9.15.06', 'TST01', 'tafd_db', 'try_tbl', 'Table', 'New', '', 'TPT');insert
- into TAFD_DB.Inp_Release_Package_Info values ('1.177', '2017.11.20.19.15.
-06', 'TST02', 'tafd_db', 'row_count_rslt', 'View', 'Update', '', 'FLD');in
-sert into TAFD_DB.Inp_Release_Package_Info values ('1.177', '2017.11.20.19
-.15.06', 'TST03', 'tafd_db', 'script_level_row_count_rslt', 'Table', 'New'
-, '', 'DS');insert into TAFD_DB.Inp_Release_Package_Info values ('1.177', 
-'2017.11.20.19.15.06', 'TST04', 'tafd_db', 'distinct_value_count_rslt', 'p
+insert into TAFD_DB.Inp_Release_Package_Info values ('1.181', '2017.11.21.1
+2.02.58', 'TST01', 'tafd_db', 'try_tbl', 'Table', 'New', '', 'TPT');insert
+ into TAFD_DB.Inp_Release_Package_Info values ('1.181', '2017.11.21.12.02.
+58', 'TST02', 'tafd_db', 'row_count_rslt', 'View', 'Update', '', 'FLD');in
+sert into TAFD_DB.Inp_Release_Package_Info values ('1.181', '2017.11.21.12
+.02.58', 'TST03', 'tafd_db', 'script_level_row_count_rslt', 'Table', 'New'
+, '', 'DS');insert into TAFD_DB.Inp_Release_Package_Info values ('1.181', 
+'2017.11.21.12.02.58', 'TST04', 'tafd_db', 'distinct_value_count_rslt', 'p
 roc', 'Update', '', 'TPT');
 
  *** Insert completed. One row added. 
@@ -788,17 +760,28 @@ roc', 'Update', '', 'TPT');
 
 +---------+---------+---------+---------+---------+---------+---------+----
 
-insert into TAFD_DB.Inp_Dup_Verification values ('1.177', '2017.11.20.19.15
-.06', '1', '1', 'TST03', 'tafd_db', 'try_tbl', 'col1');
+insert into TAFD_DB.Inp_Dup_Verification values ('1.181', '2017.11.21.12.02
+.58', '1', '1', 'TAFPipe1', 'dbc', 'accounts', '');insert into TAFD_DB.Inp
+_Dup_Verification values ('1.181', '2017.11.21.12.02.58', '1', '1', 'TAFPi
+pe1', 'dbc', 'test_tbl2', '');insert into TAFD_DB.Inp_Dup_Verification val
+ues ('1.181', '2017.11.21.12.02.58', '1', '1', 'TAFPipe1', 'dbc', 'credit_
+tran', '');
 
  *** Insert completed. One row added. 
  *** Total elapsed time was 1 second.
 
 
+ *** Insert completed. One row added. 
+
+ *** Insert completed. One row added. 
+
 +---------+---------+---------+---------+---------+---------+---------+----
 
-insert into TAFD_DB.Inp_Table_And_Dup_Info values ('1.177', '2017.11.20.19.
-15.06', 'tafd_db', 'try_tbl', 'ALL', 'Y', 'col4');
+insert into TAFD_DB.Inp_Table_And_Dup_Info values ('1.181', '2017.11.21.12.
+02.58', 'dbc', 'accounts', 'All', 'N', '');insert into TAFD_DB.Inp_Table_A
+nd_Dup_Info values ('1.181', '2017.11.21.12.02.58', 'dbc', 'test_tbl2', 'A
+ll', 'N', '');insert into TAFD_DB.Inp_Table_And_Dup_Info values ('1.181', 
+'2017.11.21.12.02.58', 'dbc', 'credit_tran', 'All', 'N', '');
  *** Failure 3813 The positional assignment list has too many values.
                 Statement# 1, Info =0 
  *** Total elapsed time was 1 second.
@@ -806,9 +789,9 @@ insert into TAFD_DB.Inp_Table_And_Dup_Info values ('1.177', '2017.11.20.19.
 
 +---------+---------+---------+---------+---------+---------+---------+----
 
-insert into TAFD_DB.Inp_Ri_Verification values ('1.177', '2017.11.20.19.15.
-06', '1', '1', 'TST01', 'tafd_db', 'accts', 'cust_id,acct_type', 'tafd_db'
-, 'accts', 'cust_id,acct_type');
+insert into TAFD_DB.Inp_Ri_Verification values ('1.181', '2017.11.21.12.02.
+58', '1', '1', 'TAFPipe1', 'tafd_db', 'credit_tran', 'cust_id,tran_id', 't
+afd_db', 'tafd_db', 'cust_id,tran_id');
 
  *** Insert completed. One row added. 
  *** Total elapsed time was 1 second.
@@ -816,13 +799,13 @@ insert into TAFD_DB.Inp_Ri_Verification values ('1.177', '2017.11.20.19.15.
 
 +---------+---------+---------+---------+---------+---------+---------+----
 
-insert into TAFD_DB.Inp_Hh_Verification values ('1.177', '2017.11.20.19.15.
-06', '1', '1', 'TST01', 'TAFD_DB', 'credit_acct', 'acct_nbr', 'Y', '', '')
-;insert into TAFD_DB.Inp_Hh_Verification values ('1.177', '2017.11.20.19.1
-5.06', '1', '1', 'TST01', 'TAFD_DB', 'credit_acct', 'acct_start_date', '',
- 'Y', '');insert into TAFD_DB.Inp_Hh_Verification values ('1.177', '2017.1
-1.20.19.15.06', '1', '1', 'TST01', 'TAFD_DB', 'credit_acct', 'acct_end_dat
-e', '', '', 'Y');
+insert into TAFD_DB.Inp_Hh_Verification values ('1.181', '2017.11.21.12.02.
+58', '1', '1', 'TAFPipe1', 'TAFD_DB', 'test_tbl2', 'stream_id', 'Y', '', '
+');insert into TAFD_DB.Inp_Hh_Verification values ('1.181', '2017.11.21.12
+.02.58', '1', '1', 'TAFPipe2', 'TAFD_DB', 'test_tbl3', 'process_exec_start
+_time', '', 'Y', '');insert into TAFD_DB.Inp_Hh_Verification values ('1.18
+1', '2017.11.21.12.02.58', '1', '1', 'TAFPipe3', 'TAFD_DB', 'test_tbl4', '
+process_exec_end_time', '', '', 'Y');
 
  *** Insert completed. One row added. 
  *** Total elapsed time was 1 second.
@@ -838,8 +821,8 @@ e', '', '', 'Y');
 
 
 
-insert into TAFD_DB.Inp_Column_Mapping values ('1.177', '2017.11.20.19.15.0
-6', 'C:\Users\kt186036\Desktop\File Comparison', 'employee_comma - Copy (1
+insert into TAFD_DB.Inp_Column_Mapping values ('1.181', '2017.11.21.12.02.5
+8', 'C:\Users\kt186036\Desktop\File Comparison', 'employee_comma - Copy (1
 ).txt', 'C:\Users\kt186036\Desktop\File Comparison', 'employee_comma - Cop
 y (2).txt', 'Flag', 'Flag', 'Y', 'N');
  *** Failure 3813 The positional assignment list has too many values.
@@ -849,24 +832,13 @@ y (2).txt', 'Flag', 'Flag', 'Y', 'N');
 
 +---------+---------+---------+---------+---------+---------+---------+----
 
-insert into TAFD_DB.Inp_Minus_Test values ('1.177', '2017.11.20.19.15.06', 
-'1', '1', 'TST01', 'TAFD_DB', 'test_tbl', 'TAFD_DB', 'test_tbl', 'Y', 'Y',
- 'N', 'Full');insert into TAFD_DB.Inp_Minus_Test values ('1.177', '2017.11
-.20.19.15.06', '1', '1', 'TST01', 'TAFD_DB', 'test_tbl2', 'TAFD_DB', 'test
-_tbl2', 'Y', 'Y', 'Y', 'NA');insert into TAFD_DB.Inp_Minus_Test values ('1
-.177', '2017.11.20.19.15.06', '1', '1', 'TST01', 'TAFD_DB', 'varchar_tbl',
- 'TAFD_DB', 'varchar_tbl', 'Y', 'Y', 'Y', 'NA');insert into TAFD_DB.Inp_Mi
-nus_Test values ('1.177', '2017.11.20.19.15.06', '1', '1', 'TST01', 'TAFD_
-DB', 'customer', 'TAFD_DB', 'customer', 'Y', 'Y', 'Y', 'NA');insert into T
-AFD_DB.Inp_Minus_Test values ('1.177', '2017.11.20.19.15.06', '1', '1', 'T
-ST02', 'TAFD_DB', 'credit_tran', 'TAFD_DB', 'credit_tran', 'Y', 'Y', 'Y', 
-'NA');insert into TAFD_DB.Inp_Minus_Test values ('1.177', '2017.11.20.19.1
-5.06', '1', '1', 'TST03', 'TAFD_DB', 'credit_acct', 'TAFD_DB', 'credit_acc
-t', 'Y', 'Y', 'Y', 'NA');insert into TAFD_DB.Inp_Minus_Test values ('1.177
-', '2017.11.20.19.15.06', '1', '1', 'TST04', 'TAFD_DB', 'checking_acct', '
-TAFD_DB', 'checking_acct', 'Y', 'Y', 'Y', 'NA');insert into TAFD_DB.Inp_Mi
-nus_Test values ('1.177', '2017.11.20.19.15.06', '1', '1', 'TST05', 'TAFD_
-DB', 'accts', 'TAFD_DB', 'accts', 'Y', 'Y', 'Y', 'NA');
+insert into TAFD_DB.Inp_Minus_Test values ('1.181', '2017.11.21.12.02.58', 
+'1', '1', 'TAFPipe1', 'TAFD_DB', 'test_tbl2', 'TAFD_DB', 'test_tbl2', 'Y',
+ 'Y', 'Y', 'NA');insert into TAFD_DB.Inp_Minus_Test values ('1.181', '2017
+.11.21.12.02.58', '1', '1', 'TAFPipe2', 'TAFD_DB', 'credit_tran', 'TAFD_DB
+', 'credit_tran', 'Y', 'Y', 'Y', 'NA');insert into TAFD_DB.Inp_Minus_Test 
+values ('1.181', '2017.11.21.12.02.58', '1', '1', 'TAFPipe3', 'DBC', 'Acco
+unts', 'DBC', 'Accounts', 'Y', 'Y', 'Y', 'NA');
 
  *** Insert completed. One row added. 
  *** Total elapsed time was 1 second.
@@ -876,37 +848,27 @@ DB', 'accts', 'TAFD_DB', 'accts', 'Y', 'Y', 'Y', 'NA');
 
  *** Insert completed. One row added. 
 
- *** Insert completed. One row added. 
-
- *** Insert completed. One row added. 
-
- *** Insert completed. One row added. 
-
- *** Insert completed. One row added. 
-
- *** Insert completed. One row added. 
-
 +---------+---------+---------+---------+---------+---------+---------+----
 
-insert into TAFD_DB.Inp_Surrogate_Key_Test values ('1.177', '2017.11.20.19.
-15.06', '1', '1', 'TST01', 'tafd_db', 'src_tbl', 'tafd_db', 'surr_key_tbl'
-, 'src_key1,src_key2', 'surr_key', 'select tafd_db.src_tbl.src_key1 || '_'
- || tafd_db.src_tbl.src_key2', 'concat_src_key');insert into TAFD_DB.Inp_T
-est_Script_Execution values ('1.177', '2017.11.20.19.15.06', '1', '1', 'TS
-T01', 'C:/Users/kt186036/Desktop/TAS/CORE_CHART_OF_ACCOUNTS_DATA_LOAD_SCRI
-PT.btq', 'TAS_DB', 'TMP_CORE_COMPANY', 'TAS_DB', 'CORE_COMPANY', '');
+insert into TAFD_DB.Inp_Surrogate_Key_Test values ('1.181', '2017.11.21.12.
+02.58', '1', '1', 'TAFPIpe1', 'tafd_db', 'src_tbl', 'tafd_db', 'surr_key_t
+bl', 'src_key1,src_key2', 'surr_key', 'select tafd_db.src_tbl.src_key1 || 
+'_' || tafd_db.src_tbl.src_key2', 'concat_src_key');insert into TAFD_DB.In
+p_Test_Script_Execution values ('1.181', '2017.11.21.12.02.58', '1', '1', 
+'TST01', 'C:/Users/kt186036/Desktop/TAS/CORE_CHART_OF_ACCOUNTS_DATA_LOAD_S
+CRIPT.btq', 'TAS_DB', 'TMP_CORE_COMPANY', 'TAS_DB', 'CORE_COMPANY', '');
 
-insert into TAFD_DB.Inp_Surrogate_Key_Test values ('1.177', '2017.11.20.19
-.15.06', '1', '1', 'TST01', 'tafd_db', 'src_tbl', 'tafd_db', 'surr_key_tbl
-', 'src_key1,src_key2', 'surr_key', 'select tafd_db.src_tbl.src_key1 || '_
-' || tafd_db.src_tbl.src_key2', 'concat_src_key');insert into TAFD_DB.Inp_
-Test_Script_Execution values ('1.177', '2017.11.20.19.15.06', '1', '1', 'T
-ST01', 'C:/Users/kt186036/Desktop/TAS/CORE_CHART_OF_ACCOUNTS_DATA_LOAD_SCR
-IPT.btq', 'TAS_DB', 'TMP_CORE_COMPANY', 'TAS_DB', 'CORE_COMPANY', '');
- $
+insert into TAFD_DB.Inp_Surrogate_Key_Test values ('1.181', '2017.11.21.12
+.02.58', '1', '1', 'TAFPIpe1', 'tafd_db', 'src_tbl', 'tafd_db', 'surr_key_
+tbl', 'src_key1,src_key2', 'surr_key', 'select tafd_db.src_tbl.src_key1 ||
+ '_' || tafd_db.src_tbl.src_key2', 'concat_src_key');insert into TAFD_DB.I
+np_Test_Script_Execution values ('1.181', '2017.11.21.12.02.58', '1', '1',
+ 'TST01', 'C:/Users/kt186036/Desktop/TAS/CORE_CHART_OF_ACCOUNTS_DATA_LOAD_
+SCRIPT.btq', 'TAS_DB', 'TMP_CORE_COMPANY', 'TAS_DB', 'CORE_COMPANY', '');
+    $
  *** Failure 3707 Syntax error, expected something like ',' or ')' between a
   string or a Unicode character literal and the word '_'.
-                Statement# 1, Info =224 
+                Statement# 1, Info =227 
  *** Total elapsed time was 1 second.
 
 
