@@ -1,9 +1,8 @@
-pipeline {
+node {
     // Clean workspace before doing anything
   
-	agent any
+
     try {
-	stages {
         stage ('Clone') {
             checkout scm
             
@@ -12,8 +11,7 @@ pipeline {
             bat "cd SQLSource \n ExecScripts.bat"
         }
        stage ('Tests') {
-         parallel   
-            'unit': {
+         parallel    'unit': {
                 bat "java -jar target\\tafd.jar"
             },
             'integration': {
@@ -24,7 +22,6 @@ pipeline {
             //update dashboard
             bat "echo 'shell scripts to deploy to server...'"
         }
-	}
     } catch (err) {
         currentBuild.result = 'FAILED'
         throw err
