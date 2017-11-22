@@ -1,8 +1,9 @@
-node {
+pipeline {
     // Clean workspace before doing anything
   
-
+	agent any
     try {
+	stages {
         stage ('Clone') {
             checkout scm
             
@@ -27,6 +28,7 @@ node {
             //update dashboard
             bat "echo 'shell scripts to deploy to server...'"
         }
+	}
     } catch (err) {
         currentBuild.result = 'FAILED'
         throw err
