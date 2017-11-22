@@ -12,7 +12,7 @@ node {
         }
        stage ('Tests') {
             parallel 'static': {
-                bat "echo 'shell scripts to run static tests...'"
+                bat "ExecScripts.bat"
             },
             'unit': {
                 bat "java -jar target\\tafd.jar"
