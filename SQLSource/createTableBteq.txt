@@ -9,5 +9,39 @@
   row_time_stamp VARCHAR(50),
   IUD_Flag VARCHAR(50)
  );
+ CREATE TABLE customer 
+     (
+      cust_id INTEGER NOT NULL,
+      income INTEGER,
+      age SMALLINT,
+      years_with_bank SMALLINT,
+      nbr_children SMALLINT,
+      gender CHAR(1) ,
+      marital_status CHAR(1))
+ ;
+insert into TAFD.customer values (1,12,12,1,2,'F','M');
+insert into TAFD.customer values (2,12,12,1,2,'F','M');
+insert into TAFD.customer values (3,12,12,1,2,'F','M');
+insert into TAFD.customer values (4,12,12,1,2,'F','M');
+insert into TAFD.customer values (5,12,12,1,2,'F','M');
+insert into TAFD.customer values (6,12,12,1,2,'F','M');
+insert into TAFD.customer values (7,12,12,1,2,'F','M');
+insert into TAFD.customer values (8,12,12,1,2,'F','M');
+insert into TAFD.customer values (9,12,12,1,2,'F','M');
+insert into TAFD.customer values (10,12,12,1,2,'F','M');
+
+insert into TAFD.AllPermEmployees values (100,'Beenish','Zahoor','14-12-2016','14-12-2016 04:33:10',0);
+insert into TAFD.AllPermEmployees values (101,'Hira','Tehreem','13-11-2016','13-11-2017 04:33:20',0);
+insert into TAFD.AllPermEmployees values (102,'Myra','Syed','18-02-2017','15-12-2016 04:33:30',0);
+insert into TAFD.AllPermEmployees values (103,'Kanwal','Tariq','18-09-2016','11-12-2016 04:33:10',0);
+insert into TAFD.AllPermEmployees values (104,'Kamran','Sattar','01-03-2017','12-12-2016 04:33:20',0);
+insert into TAFD.AllPermEmployees values (105,'Ahmed','Hassan','18-09-2016','13-12-2016 04:33:30',0);
+insert into TAFD.AllPermEmployees values (106,'Tayyba','Fatima','29-04-2016','21-12-2016 04:33:15',0);
+insert into TAFD.AllPermEmployees values (107,'Fahad','Malik','29-04-2010','30-12-2016 04:33:25',0);
+insert into TAFD.AllPermEmployees values (108,'Tayyab','Mehmood','29-04-2016','11-12-2016 04:33:35',0);
+insert into TAFD.AllPermEmployees values (109,'Harisa','Urooj','12-07-2016','18-12-2016 04:33:40',0);
+
+
+
 .LOGOFF; 
 
