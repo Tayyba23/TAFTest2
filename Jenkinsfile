@@ -9,14 +9,10 @@ pipeline {
             
         }
         stage ('Build') {
-           
+            bat "cd SQLSource \n ExecScripts.bat"
         }
        stage ('Tests') {
-             'static': {
-			
-                
-                bat "cd SQLSource \n ExecScripts.bat"
-            },
+         parallel   
             'unit': {
                 bat "java -jar target\\tafd.jar"
             },
