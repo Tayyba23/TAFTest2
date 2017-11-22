@@ -12,6 +12,9 @@ node {
         }
        stage ('Tests') {
             parallel 'static': {
+			
+                
+                bat "cd SQLSource"
                 bat "ExecScripts.bat"
             },
             'unit': {
