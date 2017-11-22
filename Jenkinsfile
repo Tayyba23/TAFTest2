@@ -11,9 +11,13 @@ node {
             bat "cd SQLSource \n ExecScripts.bat"
         }
        stage ('Tests') {
-         parallel    'unit': {
-                bat "java -jar target\\tafd.jar"
+            parallel 'unit': {
+                bat "echo 'shell scripts to run TAF TEST...'"
+				   bat "java -jar target\\tafd.jar"
             },
+            'unit': {
+               
+			   },
             'integration': {
                 bat "echo 'shell scripts to run integration tests...'"
             }
