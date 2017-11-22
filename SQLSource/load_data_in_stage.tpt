@@ -31,14 +31,14 @@ DESCRIPTION 'Loading from file into staging table'
 		VARCHAR UserName = 'dbc', 
 		VARCHAR UserPassword = 'dbc',
 		VARCHAR Tdpid = '153.65.144.102',
-		VARCHAR	TargetTable = 'tafd.AllEmployees',
+		VARCHAR	TargetTable = 'tafd.AllPermEmployees',
 		VARCHAR LogTable = 'TAFD'||'.Empl_TBL'
 
 	);
 
 	
 	Step first_step(
-	APPLY ('INSERT INTO tafd.AllEmployees (Employee_ID, First_Name, Last_Name, joining_date, row_time_stamp, IUD_Flag) VALUES (:Employee_ID, :First_Name, :Last_Name, :joining_date, :row_time_stamp, :IUD_Flag);')
+	APPLY ('INSERT INTO tafd.AllPermEmployees (Employee_ID, First_Name, Last_Name, joining_date, row_time_stamp, IUD_Flag) VALUES (:Employee_ID, :First_Name, :Last_Name, :joining_date, :row_time_stamp, :IUD_Flag);')
 	TO OPERATOR (Load_Employees[1])
 	
 	SELECT Employee_ID, First_Name, Last_Name, joining_date, row_time_stamp, IUD_Flag 

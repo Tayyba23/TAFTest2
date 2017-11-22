@@ -19,6 +19,7 @@ echo on
 set error_level1=%ERRORLEVEL%
 echo %ERRORLEVEL% > errorlevel_loadStage.txt
 IF %error_level1%==0 (
+echo "Successfully Executed Staging TPT Script"
 goto executeThird
 )
 ELSE
@@ -35,6 +36,8 @@ set error_level=%ERRORLEVEL%
 tbuild -f load_data_in_target.tpt > loadDataTarget_Log.txt
 echo on
 echo %ERRORLEVEL% > errorlevel_loadTarget.txt
+IF %ERRORLEVEL%== 0
+echo "Successfully Executed Staging TPT Script"
 goto commonExit
 
 :ShowError

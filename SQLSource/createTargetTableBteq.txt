@@ -1,6 +1,6 @@
 .LOGON 153.65.144.102/dbc,dbc; 
    DATABASE TAFD;
-   create table Employee
+   create table PermEmployee
  (
   Employee_ID VARCHAR(50), 
   First_Name VARCHAR(50), 
