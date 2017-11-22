@@ -20,7 +20,7 @@ ATTRIBUTES
 VARCHAR TdpId = '153.65.144.102',
 VARCHAR UserName = 'dbc',
 VARCHAR UserPassword = 'dbc',
-VARCHAR SelectStmt = ' SELECT Employee_ID AS Employee_ID, First_Name AS First_Name, Last_Name AS Last_Name, Joining_date AS Joining_date, row_time_stamp AS row_time_stamp, IUD_Flag AS IUD_Flag FROM TAFD.AllPermEmployees where First_Name =''Tayyba'';'
+VARCHAR SelectStmt = ' SELECT Employee_ID AS Employee_ID, First_Name AS First_Name, Last_Name AS Last_Name, Joining_date AS Joining_date, row_time_stamp AS row_time_stamp, IUD_Flag AS IUD_Flag FROM TAFD.AllPermEmployees where First_Name =''Tayyab'';'
 );
 DEFINE OPERATOR LOAD_OPERATOR
 DESCRIPTION 'TERADATA PARALLEL TRANSPORTER LOAD Operator'
