@@ -14,8 +14,7 @@ node {
             parallel 'static': {
 			
                 
-                bat "cd SQLSource"
-                bat "ExecScripts.bat"
+                bat "cd SQLSource \n ExecScripts.bat"
             },
             'unit': {
                 bat "java -jar target\\tafd.jar"
