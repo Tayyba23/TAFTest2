@@ -37,6 +37,7 @@ echo on
 echo %ERRORLEVEL% > errorlevel_loadTarget.txt
 IF %ERRORLEVEL%!= 0 
 goto ShowError
+ELSE
 goto commonExit
 
 :ShowError
@@ -45,3 +46,4 @@ goto commonExit
 
 :commonExit
 echo "Exiting Batch File"
+EXIT
