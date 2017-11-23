@@ -1,0 +1,30 @@
+.LOGON 153.65.144.102/dbc,dbc; 
+   DATABASE TAFD;
+insert into TAFD.customer values (1,1200,12,1,2,'F','M');
+insert into TAFD.customer values (2,1800,12,1,2,'M','U');
+insert into TAFD.customer values (3,2400,12,1,2,'M','M');
+insert into TAFD.customer values (4,900,12,1,2,'F','U');
+insert into TAFD.customer values (5,1500,12,1,2,'F','M');
+insert into TAFD.customer values (6,1600,12,1,2,'M','U');
+insert into TAFD.customer values (7,1200,12,1,2,'F','U');
+insert into TAFD.customer values (8,1100,12,1,2,'M','M');
+insert into TAFD.customer values (9,700,12,1,2,'F','U');
+insert into TAFD.customer values (10,900,12,1,2,'M','M');
+
+insert into TAFD.AllPermEmployees values (100,'Beenish','Zahoor','14-12-2016','14-12-2016 04:33:10',0);
+insert into TAFD.AllPermEmployees values (101,'Hira','Tehreem','13-11-2016','13-11-2017 04:33:20',0);
+insert into TAFD.AllPermEmployees values (102,'Myra','Syed','18-02-2017','15-12-2016 04:33:30',0);
+insert into TAFD.AllPermEmployees values (103,'Kanwal','Tariq','18-09-2016','11-12-2016 04:33:10',0);
+insert into TAFD.AllPermEmployees values (104,'Kamran','Sattar','01-03-2017','12-12-2016 04:33:20',0);
+insert into TAFD.AllPermEmployees values (105,'Ahmed','Hassan','18-09-2016','13-12-2016 04:33:30',0);
+insert into TAFD.AllPermEmployees values (106,'Tayyba','Fatima','29-04-2016','21-12-2016 04:33:15',0);
+insert into TAFD.AllPermEmployees values (107,'Fahad','Malik','29-04-2010','30-12-2016 04:33:25',0);
+insert into TAFD.AllPermEmployees values (108,'Tayyab','Mehmood','29-04-2016','11-12-2016 04:33:35',0);
+insert into TAFD.AllPermEmployees values (109,'Harisa','Urooj','12-07-2016','18-12-2016 04:33:40',0);
+
+
+
+
+
+.LOGOFF; 
+
