@@ -19,5 +19,42 @@
  insert into TAFD.accts select cust_id, 'CK','13624982','02/12/1995','09/18/1997' from TAFD.customer where cust_id =11;
  insert into TAFD.accts select cust_id, 'CK','13626722','12/18/1995',null from TAFD.customer where cust_id =1362498;
  insert into TAFD.accts select cust_id, 'CK','13626052','05/21/1994','09/18/2005' from TAFD.customer where cust_id =12;
+ 
+ 
+ insert into tafd.checking_tran values ( 1,1,'13625512',0,1537,116,0,69.09,69.09,0,175.81,'12/04/1995','null','P','WD');
+ insert into tafd.checking_tran values ( 265,3,'13625493',2,328,null,170,0,0,0,16.31,'05/19/1995','95913','B','IQ');
+ insert into tafd.checking_tran values ( 469,3,'13625493',0,8931,118,0,62.85,62.85,0,1445.04,'06/30/1995','null','P','WD');
+ insert into tafd.checking_tran values ( 265,3,'13625493',0,1635,null,23,53.2,53.2,0,177.04,'11/02/1995','125428','E','WD');
+ insert into tafd.checking_tran values ( 469,1,'13625512',0,11451,169,0,138.65,138.65,0,18.85,'09/26/1995','null','P','WD');
+ insert into tafd.checking_tran values ( 265,1,'13625512',0,5442,56,0,24.73,24.73,0,44.55,'04/07/1995','null','P','WD');
+ insert into tafd.checking_tran values ( 469,1,'13625512',0,18370,145,0,187.67,187.67,0,234.85,'12/27/1995','null','P','WD');
+ insert into tafd.checking_tran values ( 265,4,'13624863',309,5990,null,32,109.96,109.96,0,12.41,'08/15/1995','145529','K','TR');
+ insert into tafd.checking_tran values ( 469,1,'13625512',0,19637,105,0,185.93,185.93,0,36.77,'08/29/1995','null','P','WD');
+ insert into tafd.checking_tran values ( 265,1,'13625512',0,7052,70,0,34.31,34.31,0,34.3,'06/04/1995','null','P','WD');
+ insert into tafd.checking_tran values ( 469,5,'4561140000000000',1,20251,null,30,0,0,0,231.32,'11/04/1995','55313','C','IQ');
+ insert into tafd.checking_tran values ( 265,5,'4561140000000000',0,7920,56,0,19.71,19.71,0,51.58,'04/18/1995','null','P','WD');
+ insert into tafd.checking_tran values ( 469,6,'13624862',21,20842,null,45,120.13,120.13,0,153.31,'12/14/1995','184539','B','DP');
+ insert into tafd.checking_tran values ( 265,6,'13624862',0,9185,61,0,104.99,104.99,0,586.34,'04/11/1995','null','P','WD');
+ insert into tafd.checking_tran values ( 469,2,'4561140000000000 ',1,21624,null,55,0,0,0,869.63,'12/21/1995','91833','C','IQ');
+ insert into tafd.checking_tran values ( 265,2,'4561140000000000',1,9389,null,30,0,0,0,278.49,'09/17/1995','121932','V','IQ');
+ insert into tafd.checking_tran values ( 469,2,'4561140000000000',1,22043,null,37,139.15,139.15,0,228.21,'09/06/1995','203848','C','TR');
+ insert into tafd.checking_tran values ( 265,2,'4561140000000000',4,10069,null,141,0,0,0,1474.14,'08/31/1995','112631','B','IQ');
+ insert into tafd.checking_tran values ( 469,2,'4561140000000000',153,22906,null,140,0,0,0,19.77,'12/24/1995','155119','B','IQ');
+ insert into tafd.checking_tran values ( 265,2,'4561140000000000',0,11384,97,0,24.39,24.39,0,24.4,'08/20/1995','null','P','WD');
+ insert into tafd.checking_tran values ( 469,2,'4561140000000000',5,24555,null,106,25.45,25.45,0,63.39,'12/20/1995','104621','B','DP');
+ insert into tafd.checking_tran values ( 265,7,'13625002',19,12285,null,43,19.44,19.44,0,19.45,'08/12/1995','183920','K','TR');
+ insert into tafd.checking_tran values ( 469,7,'13625002',0,25857,null,0,172.5,172.5,0,1403.65,'11/02/1995','null','M','DP');
+ insert into tafd.checking_tran values ( 265,10,'4561140000000000',1,15531,null,41,0,0,0,691.48,'04/08/1995','212730','V','IQ');
+ insert into tafd.checking_tran values ( 469,8,'13624893',1,26752,null,31,0,0,0,272.25,'08/20/1995','134838','V','IQ');
+ insert into tafd.checking_tran values ( 265,8,'13624893',0,16096,75,0,4.26,4.26,0,14.52,'10/17/1995','null','P','WD');
+ insert into tafd.checking_tran values ( 469,9,'13624892',152,28491,null,123,0,0,0,22.81,'06/22/1995','125019','B','IQ');
+ insert into tafd.checking_tran values ( 265,9,'13624892',0,16463,117,0,7.1,7.1,0,9.37,'02/16/1995','null','P','WD');
+ insert into tafd.checking_tran values ( 469,9,'13624892',0,29922,null,22,133.31,133.31,0,277.08,'07/03/1995','122806','E','WD');
+ 
+ 
+ 
+ 
+ 
+ 
 .LOGOFF; 
 
