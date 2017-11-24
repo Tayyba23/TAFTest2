@@ -21,11 +21,8 @@ insert into TAFD.AllPermEmployees values (106,'Tayyba','Fatima','29-04-2016','21
 insert into TAFD.AllPermEmployees values (107,'Fahad','Malik','29-04-2010','30-12-2016 04:33:25','P',0);
 insert into TAFD.AllPermEmployees values (108,'Tayyab','Mehmood','29-04-2016','11-12-2016 04:33:35','P',0);
 insert into TAFD.AllPermEmployees values (109,'Harisa','Urooj','12-07-2016','18-12-2016 04:33:40','P',0);
-
 insert into TAFD.AllPermEmployees values (200,'ABC','XYS','12-07-2016','18-12-2016 04:33:40','P',0);
 
-
-
-
+insert into TAFD.PermEmployee select * from TAFD.AllPermEmployees where first_name like 'tayy%'; ;
 .LOGOFF; 
 

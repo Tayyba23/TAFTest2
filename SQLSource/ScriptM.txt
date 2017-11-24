@@ -17,6 +17,7 @@
   Last_Name VARCHAR(50), 
   Joining_date VARCHAR(50), 
   row_time_stamp VARCHAR(50),
+  Employee_status varchar(1),
   IUD_Flag VARCHAR(50)
  );
  
