@@ -1,15 +1,68 @@
 .LOGON 153.65.144.102/dbc,dbc; 
    DATABASE TAFD;
-insert into TAFD.customer values (1,1200,12,1,2,'F','M');
-insert into TAFD.customer values (2,1800,12,1,2,'M','U');
-insert into TAFD.customer values (3,2400,12,1,2,'M','M');
-insert into TAFD.customer values (4,900,12,1,2,'F','U');
-insert into TAFD.customer values (5,1500,12,1,2,'F','M');
-insert into TAFD.customer values (6,1600,12,1,2,'M','U');
-insert into TAFD.customer values (7,1200,12,1,2,'F','U');
-insert into TAFD.customer values (8,1100,12,1,2,'M','M');
-insert into TAFD.customer values (9,700,12,1,2,'F','U');
-insert into TAFD.customer values (10,900,12,1,2,'M','M');
+insert into TAFD.customer values (1,1200,23,1,2,'F','M');
+insert into TAFD.customer values (2,1800,32,3,3,'M','U');
+insert into TAFD.customer values (3,2400,31,5,0,'M','M');
+insert into TAFD.customer values (4,900,46,6,2,'F','U');
+insert into TAFD.customer values (5,1500,33,3,5,'F','M');
+insert into TAFD.customer values (6,1600,23,1,4,'M','U');
+insert into TAFD.customer values (7,1200,34,2,4,'F','U');
+insert into TAFD.customer values (8,1100,51,4,2,'M','M');
+insert into TAFD.customer values (9,700,35,12,1,'F','U');
+insert into TAFD.customer values (10,900,12,5,5,'M','M');
+
+insert into TAFD.customer values (11,1200,23,1,2,'F','M');
+insert into TAFD.customer values (12,1800,32,3,3,'M','U');
+insert into TAFD.customer values (13,2400,31,5,0,'M','M');
+insert into TAFD.customer values (14,900,46,6,2,'F','U');
+insert into TAFD.customer values (15,1500,33,3,5,'F','M');
+insert into TAFD.customer values (16,1600,23,1,4,'M','U');
+insert into TAFD.customer values (17,1200,34,2,4,'F','U');
+insert into TAFD.customer values (18,1100,51,4,2,'M','M');
+insert into TAFD.customer values (19,700,35,12,1,'F','U');
+insert into TAFD.customer values (20,900,12,5,5,'M','M');
+
+
+insert into TAFD.customer values (21,1200,23,1,2,'F','M');
+insert into TAFD.customer values (22,1800,32,3,3,'M','U');
+insert into TAFD.customer values (23,2400,31,5,0,'M','M');
+insert into TAFD.customer values (24,900,46,6,2,'F','U');
+insert into TAFD.customer values (25,1500,33,3,5,'F','M');
+insert into TAFD.customer values (26,1600,23,1,4,'M','U');
+insert into TAFD.customer values (27,1200,34,2,4,'F','U');
+insert into TAFD.customer values (28,1100,51,4,2,'M','M');
+insert into TAFD.customer values (29,700,35,12,1,'F','U');
+insert into TAFD.customer values (30,900,12,5,5,'M','M');
+
+
+insert into TAFD.customer values (41,1200,23,1,2,'F','M');
+insert into TAFD.customer values (42,1800,32,3,3,'M','U');
+insert into TAFD.customer values (43,2400,31,5,0,'M','M');
+insert into TAFD.customer values (44,900,46,6,2,'F','U');
+insert into TAFD.customer values (45,1500,33,3,5,'F','M');
+insert into TAFD.customer values (46,1600,23,1,4,'M','U');
+insert into TAFD.customer values (47,1200,34,2,4,'F','U');
+insert into TAFD.customer values (48,1100,51,4,2,'M','M');
+insert into TAFD.customer values (49,700,35,12,1,'F','U');
+insert into TAFD.customer values (50,900,12,5,5,'M','M');
+
+insert into TAFD.customer values (31,1200,23,1,2,'F','M');
+insert into TAFD.customer values (32,1800,32,3,3,'M','U');
+insert into TAFD.customer values (33,2400,31,5,0,'M','M');
+insert into TAFD.customer values (34,900,46,6,2,'F','U');
+insert into TAFD.customer values (35,1500,33,3,5,'F','M');
+insert into TAFD.customer values (36,1600,23,1,4,'M','U');
+insert into TAFD.customer values (37,1200,34,2,4,'F','U');
+insert into TAFD.customer values (38,1100,51,4,2,'M','M');
+insert into TAFD.customer values (39,700,35,12,1,'F','U');
+insert into TAFD.customer values (40,900,12,5,5,'M','M');
+
+
+
+
+
+
+
 
 insert into TAFD.AllPermEmployees values (100,'Beenish','Zahoor','14-12-2016','14-12-2016 04:33:10','P',0);
 insert into TAFD.AllPermEmployees values (101,'Hira','Tehreem','13-11-2016','13-11-2017 04:33:20','P',0);
@@ -23,6 +76,10 @@ insert into TAFD.AllPermEmployees values (108,'Tayyab','Mehmood','29-04-2016','1
 insert into TAFD.AllPermEmployees values (109,'Harisa','Urooj','12-07-2016','18-12-2016 04:33:40','P',0);
 insert into TAFD.AllPermEmployees values (200,'ABC','XYS','12-07-2016','18-12-2016 04:33:40','P',0);
 
-insert into TAFD.PermEmployee select * from TAFD.AllPermEmployees where first_name like 'tayy%'; ;
+insert into TAFD.PermEmployee select * from TAFD.AllPermEmployees where first_name like 'tayy%'; 
+
+
+
+
 .LOGOFF; 
 
