@@ -92,6 +92,32 @@
  
  
  
+ insert into tafd.checking_tran values ( 265,11,'4561140000000000',4,10069,null,141,0,0,0,1474.14,'08/31/1995','112631','B','IQ');
+ insert into tafd.checking_tran values ( 469,22,'4561140000000000',153,22906,null,140,0,0,0,19.77,'12/24/1995','155119','B','IQ');
+ insert into tafd.checking_tran values ( 265,12,'4561140000000000',0,11384,97,0,24.39,24.39,0,24.4,'08/20/1995','null','P','WD');
+ insert into tafd.checking_tran values ( 469,13,'4561140000000000',5,24555,null,106,25.45,25.45,0,63.39,'12/20/1995','104621','B','DP');
+ insert into tafd.checking_tran values ( 265,14,'13625002',19,12285,null,43,19.44,19.44,0,19.45,'08/12/1995','183920','K','TR');
+ insert into tafd.checking_tran values ( 469,15,'13625002',0,25857,null,0,172.5,172.5,0,1403.65,'11/02/1995','null','M','DP');
+ insert into tafd.checking_tran values ( 265,20,'4561140000000000',1,15531,null,41,0,0,0,691.48,'04/08/1995','212730','V','IQ');
+ insert into tafd.checking_tran values ( 469,21,'13624893',1,26752,null,31,0,0,0,272.25,'08/20/1995','134838','V','IQ');
+ insert into tafd.checking_tran values ( 265,22,'13624893',0,16096,75,0,4.26,4.26,0,14.52,'10/17/1995','null','P','WD');
+ insert into tafd.checking_tran values ( 469,27,'13624892',152,28491,null,123,0,0,0,22.81,'06/22/1995','125019','B','IQ');
+ insert into tafd.checking_tran values ( 265,41,'13624892',0,16463,117,0,7.1,7.1,0,9.37,'02/16/1995','null','P','WD');
+ insert into tafd.checking_tran values ( 469,42,'13624892',0,29922,null,22,133.31,133.31,0,277.08,'07/03/1995','122806','E','WD');
+ 
+ insert into tafd.checking_tran values ( 265,43,'13624893',0,16096,75,0,4.26,4.26,0,14.52,'10/17/1995','null','P','WD');
+ insert into tafd.checking_tran values ( 469,44,'13624892',152,28491,null,123,0,0,0,22.81,'06/22/1995','125019','B','IQ');
+ insert into tafd.checking_tran values ( 265,45,'13624892',0,16463,117,0,7.1,7.1,0,9.37,'02/16/1995','null','P','WD');
+ insert into tafd.checking_tran values ( 469,46,'13624892',0,29922,null,22,133.31,133.31,0,277.08,'07/03/1995','122806','E','WD');
+ insert into tafd.checking_tran values ( 265,33,'13624893',0,16096,75,0,4.26,4.26,0,14.52,'10/17/1995','null','P','WD');
+ insert into tafd.checking_tran values ( 265,30,'13624893',0,16096,75,0,4.26,4.26,0,14.52,'10/17/1995','null','P','WD');
+ insert into tafd.checking_tran values ( 265,32,'13624893',0,16096,75,0,4.26,4.26,0,14.52,'10/17/1995','null','P','WD');
+ insert into tafd.checking_tran values ( 265,31,'13624893',0,16096,75,0,4.26,4.26,0,14.52,'10/17/1995','null','P','WD');
+ insert into tafd.checking_tran values ( 469,34,'13624892',152,28491,null,123,0,0,0,22.81,'06/22/1995','125019','B','IQ');
+ insert into tafd.checking_tran values ( 265,35,'13624892',0,16463,117,0,7.1,7.1,0,9.37,'02/16/1995','null','P','WD');
+ insert into tafd.checking_tran values ( 469,36,'13624892',0,29922,null,22,133.31,133.31,0,277.08,'07/03/1995','122806','E','WD');
+ 
+ 
  
  
  
