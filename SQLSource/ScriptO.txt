@@ -60,10 +60,6 @@ insert into TAFD.customer values (40,900,12,5,5,'M','M');
 
 
 
-
-
-
-
 insert into TAFD.AllPermEmployees values (100,'Beenish','Zahoor','14-12-2016','14-12-2016 04:33:10','P',0);
 insert into TAFD.AllPermEmployees values (101,'Hira','Tehreem','13-11-2016','13-11-2017 04:33:20','P',0);
 insert into TAFD.AllPermEmployees values (102,'Myra','Syed','18-02-2017','15-12-2016 04:33:30','P',0);
@@ -75,6 +71,47 @@ insert into TAFD.AllPermEmployees values (107,'Fahad','Malik','29-04-2010','30-1
 insert into TAFD.AllPermEmployees values (108,'Tayyab','Mehmood','29-04-2016','11-12-2016 04:33:35','P',0);
 insert into TAFD.AllPermEmployees values (109,'Harisa','Urooj','12-07-2016','18-12-2016 04:33:40','P',0);
 insert into TAFD.AllPermEmployees values (200,'ABC','XYS','12-07-2016','18-12-2016 04:33:40','P',0);
+
+
+insert into TAFD.AllPermEmployees values (200,'Beenish','Islam','14-12-2016','14-12-2016 04:33:10','P',0);
+insert into TAFD.AllPermEmployees values (201,'Mehreen','Tehreem','13-11-2016','13-11-2017 04:33:20','P',0);
+insert into TAFD.AllPermEmployees values (202,'Tayyba','Zahid','18-02-2017','15-12-2016 04:33:30','P',0);
+insert into TAFD.AllPermEmployees values (203,'Kanwal','Islam','18-09-2016','11-12-2016 04:33:10','P',0);
+insert into TAFD.AllPermEmployees values (204,'Kamran','Ahmed','01-03-2017','12-12-2016 04:33:20','P',0);
+insert into TAFD.AllPermEmployees values (205,'Bilal','Anjum','18-09-2016','13-12-2016 04:33:30','P',0);
+insert into TAFD.AllPermEmployees values (206,'Bilal','Khan','29-04-2016','21-12-2016 04:33:15','P',0);
+insert into TAFD.AllPermEmployees values (207,'Fahad','Mir','29-04-2010','30-12-2016 04:33:25','P',0);
+insert into TAFD.AllPermEmployees values (208,'Tayyab','ahmed','29-04-2016','11-12-2016 04:33:35','P',0);
+insert into TAFD.AllPermEmployees values (209,'Malik','Urooj','12-07-2016','18-12-2016 04:33:40','P',0);
+insert into TAFD.AllPermEmployees values (300,'ABC','XYZ','12-07-2016','18-12-2016 04:33:40','P',0);
+
+
+insert into TAFD.AllPermEmployees values (210,'Beenish','Zahoor','14-12-2016','14-12-2016 04:33:10','P',0);
+insert into TAFD.AllPermEmployees values (211,'Hira','Tehreem','13-11-2016','13-11-2017 04:33:20','P',0);
+insert into TAFD.AllPermEmployees values (212,'Myra','Syed','18-02-2017','15-12-2016 04:33:30','P',0);
+insert into TAFD.AllPermEmployees values (213,'Kanwal','Tariq','18-09-2016','11-12-2016 04:33:10','P',0);
+insert into TAFD.AllPermEmployees values (214,'Kamran','Sattar','01-03-2017','12-12-2016 04:33:20','P',0);
+insert into TAFD.AllPermEmployees values (215,'Ahmed','Hassan','18-09-2016','13-12-2016 04:33:30','P',0);
+insert into TAFD.AllPermEmployees values (216,'Tayyba','Fatima','29-04-2016','21-12-2016 04:33:15','P',0);
+insert into TAFD.AllPermEmployees values (217,'Fahad','Malik','29-04-2010','30-12-2016 04:33:25','P',0);
+insert into TAFD.AllPermEmployees values (218,'Tayyab','Mehmood','29-04-2016','11-12-2016 04:33:35','P',0);
+insert into TAFD.AllPermEmployees values (219,'Harisa','Urooj','12-07-2016','18-12-2016 04:33:40','P',0);
+insert into TAFD.AllPermEmployees values (310,'ABC','XYS','12-07-2016','18-12-2016 04:33:40','P',0);
+
+insert into TAFD.AllPermEmployees values (400,'Javaria','Fatima','14-12-2016','14-12-2016 04:33:10','P',0);
+insert into TAFD.AllPermEmployees values (401,'Sidra','Zahid','13-11-2016','13-11-2017 04:33:20','P',0);
+insert into TAFD.AllPermEmployees values (412,'Sajeel','Zahid','18-02-2017','15-12-2016 04:33:30','P',0);
+insert into TAFD.AllPermEmployees values (413,'Adeel','Tariq','18-09-2016','11-12-2016 04:33:10','P',0);
+insert into TAFD.AllPermEmployees values (404,'Adeel','Sattar','01-03-2017','12-12-2016 04:33:20','P',0);
+insert into TAFD.AllPermEmployees values (405,'Zahid','Hassan','18-09-2016','13-12-2016 04:33:30','P',0);
+insert into TAFD.AllPermEmployees values (406,'Tayyba','Khan','29-04-2016','21-12-2016 04:33:15','P',0);
+insert into TAFD.AllPermEmployees values (407,'Ayesha','Safeer','29-04-2010','30-12-2016 04:33:25','P',0);
+insert into TAFD.AllPermEmployees values (408,'Mehnoor','Fatima','29-04-2016','11-12-2016 04:33:35','P',0);
+insert into TAFD.AllPermEmployees values (409,'Mehreen','Saeed','12-07-2016','18-12-2016 04:33:40','P',0);
+insert into TAFD.AllPermEmployees values (400,'Iqra','Aziz','12-07-2016','18-12-2016 04:33:40','P',0);
+
+
+
 
 insert into TAFD.PermEmployee select * from TAFD.AllPermEmployees where first_name like 'tayy%'; 
 
