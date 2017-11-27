@@ -1,63 +1,5 @@
 .LOGON 153.65.144.102/dbc,dbc; 
    DATABASE TAFD; 
- insert into TAFD.accts select cust_id, 'CK','13625512','09/18/1995','09/18/1995' from TAFD.customer where cust_id =1;
- insert into TAFD.accts select cust_id, 'CC','4561140000000000','01/11/1991',null from TAFD.customer where cust_id =2;
- insert into TAFD.accts select cust_id, 'SV','13625493','03/22/1993',null from TAFD.customer where cust_id =3;
- insert into TAFD.accts select cust_id, 'SV','13624863','07/13/1989',null from TAFD.customer where cust_id =4;
- insert into TAFD.accts select cust_id, 'CC','4561140000000000','08/16/1990','09/18/1995' from TAFD.customer where cust_id =5;
- insert into TAFD.accts select cust_id, 'CK','13624862','08/24/1994',null from TAFD.customer where cust_id =6;
- insert into TAFD.accts select cust_id, 'CK','13625002','12/04/1995',null from TAFD.customer where cust_id =7;
- insert into TAFD.accts select cust_id, 'SV','13624893','09/13/1993',null from TAFD.customer where cust_id =8;
- insert into TAFD.accts select cust_id, 'CK','13625032','09/01/1994','09/18/1995' from TAFD.customer where cust_id =1362489;
- insert into TAFD.accts select cust_id, 'CC','4561140000000000','07/31/1994',null from TAFD.customer where cust_id =1362503;
- insert into TAFD.accts select cust_id, 'CK','13624892','10/19/1993',null from TAFD.customer where cust_id =9;
- insert into TAFD.accts select cust_id, 'SV','13626053','03/26/1994',null from TAFD.customer where cust_id =1362489;
- insert into TAFD.accts select cust_id, 'SV','13624983','09/15/1995',null from TAFD.customer where cust_id =1362605;
- insert into TAFD.accts select cust_id, 'CC','4561140000000000','08/14/1995',null from TAFD.customer where cust_id =10;
- insert into TAFD.accts select cust_id, 'SV','13626503','04/05/1995','09/18/2002' from TAFD.customer where cust_id =13;
- insert into TAFD.accts select cust_id, 'SV','13625003','12/08/1995','09/18/2007' from TAFD.customer where cust_id =14;
- insert into TAFD.accts select cust_id, 'CK','13624982','02/12/1995','09/18/1997' from TAFD.customer where cust_id =11;
- insert into TAFD.accts select cust_id, 'CK','13626722','12/18/1995',null from TAFD.customer where cust_id =1362498;
- insert into TAFD.accts select cust_id, 'CK','13626052','05/21/1994','09/18/2005' from TAFD.customer where cust_id =12;
- 
- 
- 
- insert into TAFD.accts select cust_id, 'CK','13625512','09/18/1995','09/18/2005' from TAFD.customer where cust_id =15;
- insert into TAFD.accts select cust_id, 'CC','4561140000000000','01/12/1992',null from TAFD.customer where cust_id =16;
- insert into TAFD.accts select cust_id, 'SV','13625493','03/22/1991',null from TAFD.customer where cust_id =17;
- insert into TAFD.accts select cust_id, 'SV','13624863','07/13/1983',null from TAFD.customer where cust_id =18;
- insert into TAFD.accts select cust_id, 'CC','4561140000000000','08/16/1970','09/18/1995' from TAFD.customer where cust_id =19;
- insert into TAFD.accts select cust_id, 'CK','13624862','08/24/1991',null from TAFD.customer where cust_id =20;
- insert into TAFD.accts select cust_id, 'CK','13625002','12/04/1990',null from TAFD.customer where cust_id =21;
- insert into TAFD.accts select cust_id, 'SV','13624893','09/13/1993',null from TAFD.customer where cust_id =22;
- insert into TAFD.accts select cust_id, 'CK','13625032','09/01/1994','09/18/1995' from TAFD.customer where cust_id =23;
- insert into TAFD.accts select cust_id, 'CC','4561140000000000','07/31/1994',null from TAFD.customer where cust_id =24;
- insert into TAFD.accts select cust_id, 'CK','13624892','10/19/1993',null from TAFD.customer where cust_id =25;
- insert into TAFD.accts select cust_id, 'SV','13626053','03/26/1994',null from TAFD.customer where cust_id =26;
- insert into TAFD.accts select cust_id, 'SV','13624983','09/15/1995',null from TAFD.customer where cust_id =27;
- insert into TAFD.accts select cust_id, 'CC','4561140000000000','08/14/1995',null from TAFD.customer where cust_id =28;
- insert into TAFD.accts select cust_id, 'SV','13626503','04/05/1995','09/18/2002' from TAFD.customer where cust_id =29;
- insert into TAFD.accts select cust_id, 'SV','13625003','12/08/1995','09/18/2007' from TAFD.customer where cust_id =30;
- insert into TAFD.accts select cust_id, 'CK','13624982','02/12/1995','09/18/1997' from TAFD.customer where cust_id =31;
- insert into TAFD.accts select cust_id, 'CK','13626722','12/18/1995',null from TAFD.customer where cust_id =32;
- insert into TAFD.accts select cust_id, 'CK','13626052','05/21/1994','09/18/2005' from TAFD.customer where cust_id =33;
- 
- 
-  insert into TAFD.accts select cust_id, 'SV','13624863','07/13/1983',null from TAFD.customer where cust_id =34;
- insert into TAFD.accts select cust_id, 'CC','4561140000000000','08/16/1970','09/18/1995' from TAFD.customer where cust_id =35;
- insert into TAFD.accts select cust_id, 'CK','13624862','08/24/1991',null from TAFD.customer where cust_id =36;
- insert into TAFD.accts select cust_id, 'CK','13625002','12/04/1990',null from TAFD.customer where cust_id =37;
- insert into TAFD.accts select cust_id, 'SV','13624893','09/13/1993',null from TAFD.customer where cust_id =38;
- insert into TAFD.accts select cust_id, 'CK','13625032','09/01/1994','09/18/1995' from TAFD.customer where cust_id =39;
- insert into TAFD.accts select cust_id, 'CC','4561140000000000','07/31/1994',null from TAFD.customer where cust_id =40;
- 
- 
- insert into TAFD.accts select cust_id, 'CK','13624862','08/24/1991',null from TAFD.customer where cust_id =41;
- insert into TAFD.accts select cust_id, 'CK','13625002','12/04/1990',null from TAFD.customer where cust_id =42;
- insert into TAFD.accts select cust_id, 'SV','13624893','09/13/1993',null from TAFD.customer where cust_id =43;
- insert into TAFD.accts select cust_id, 'CK','13625032','09/01/1994','09/18/1995' from TAFD.customer where cust_id =44;
- insert into TAFD.accts select cust_id, 'CC','4561140000000000','07/31/1994',null from TAFD.customer where cust_id =45;
- 
  
  
  insert into tafd.checking_tran values ( 1,1,'13625512',0,1537,116,0,69.09,69.09,0,175.81,'12/04/1995','null','P','WD');
@@ -117,9 +59,11 @@
  insert into tafd.checking_tran values ( 265,35,'13624892',0,16463,117,0,7.1,7.1,0,9.37,'02/16/1995','null','P','WD');
  insert into tafd.checking_tran values ( 469,36,'13624892',0,29922,null,22,133.31,133.31,0,277.08,'07/03/1995','122806','E','WD');
  
- 
- 
- 
+   
+   
+insert into TAFD.ContractorEmployee select * from TAFD.AllContractorEmployee where first_name = 'Rabia'; 
+insert into TAFD.PermEmployee select * from TAFD.AllPermEmployees where first_name like 'tayy%'; 
+
  
 .LOGOFF; 
 
