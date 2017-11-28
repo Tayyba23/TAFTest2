@@ -1,6 +1,10 @@
 node {
     // Clean workspace before doing anything
     try {
+	   stage ('Clone') {
+            checkout scm
+            
+        }
         stage ('Build') {
 	   try {        
 			bat "cd SQLSource \n ExecScripts.bat"
