@@ -1,7 +1,7 @@
 node {
     // Clean workspace before doing anything
     try {
-	   stage ('Clone') {
+	   stage ('CloneABC') {
             checkout scm
             
         }
