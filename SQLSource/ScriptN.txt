@@ -31,6 +31,7 @@
  insert into tafd.checking_tran values ( 469,9,'13624892',152,28491,null,123,0,0,0,22.81,'06/22/1995','125019','B','IQ');
  insert into tafd.checking_tran values ( 265,9,'13624892',0,16463,117,0,7.1,7.1,0,9.37,'02/16/1995','null','P','WD');
  insert into tafd.checking_tran values ( 469,9,'13624892',0,29922,null,22,133.31,133.31,0,277.08,'07/03/1995','122806','E','WD');
+  insert into tafd.checking_tran values ( 469,99,'13624892',0,29922,null,22,133.31,133.31,0,277.08,'07/03/1995','122806','E','WD');
  
  insert into tafd.checking_tran values ( 469,10,'13624892',0,29922,null,22,133.31,133.31,0,277.08,'07/03/1995','122806','E','WD');
  
