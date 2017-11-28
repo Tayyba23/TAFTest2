@@ -1,16 +1,13 @@
 .LOGON 153.65.144.102/dbc,dbc; 
    DATABASE TAFD;
-   create table AllPermEmployees
- (
-  Employee_ID VARCHAR(50), 
-  First_Name VARCHAR(50), 
-  Last_Name VARCHAR(50), 
-  Joining_date VARCHAR(50), 
-  row_time_stamp VARCHAR(50),
-  Employee_status varchar(1),
-  IUD_Flag VARCHAR(50)
- );
-    create table PermEmployee
+   
+ SELECT 1 FROM DBC.TABLES WHERE Databasename = 'TAFD'
+AND Tablename = 'AllPermEmployees';
+.if activitycount = 0 then .goto no_tab;
+DROP TABLE TAFD.AllPermEmployees;
+.label no_tab;
+
+ create table AllPermEmployees
  (
   Employee_ID VARCHAR(50), 
   First_Name VARCHAR(50), 
@@ -21,6 +18,26 @@
   IUD_Flag VARCHAR(50)
  );
  
+SELECT 1 FROM DBC.TABLES WHERE Databasename = 'TAFD'
+AND Tablename = 'PermEmployee';
+.if activitycount = 0 then .goto no_tab;
+DROP TABLE TAFD.PermEmployee;
+.label no_tab;
+    create table PermEmployee
+ (
+  Employee_ID VARCHAR(50), 
+  First_Name VARCHAR(50), 
+  Last_Name VARCHAR(50), 
+  Joining_date VARCHAR(50), 
+  row_time_stamp VARCHAR(50),
+  Employee_status varchar(1),
+  IUD_Flag VARCHAR(50)
+ );
+SELECT 1 FROM DBC.TABLES WHERE Databasename = 'TAFD'
+AND Tablename = 'ContractorEmployee';
+.if activitycount = 0 then .goto no_tab;
+DROP TABLE TAFD.ContractorEmployee;
+.label no_tab; 
 create table ContractorEmployee
  (
   Employee_ID VARCHAR(50), 
@@ -31,7 +48,11 @@ create table ContractorEmployee
   Employee_status varchar(1),
   IUD_Flag VARCHAR(50)
  );
-
+SELECT 1 FROM DBC.TABLES WHERE Databasename = 'TAFD'
+AND Tablename = 'AllContractorEmployee';
+.if activitycount = 0 then .goto no_tab;
+DROP TABLE TAFD.AllContractorEmployee;
+.label no_tab; 
  create table AllContractorEmployee
  (
   Employee_ID VARCHAR(50), 
@@ -42,7 +63,12 @@ create table ContractorEmployee
   Employee_status varchar(1),
   IUD_Flag VARCHAR(50)
  );
-   CREATE TABLE checking_tran (
+ SELECT 1 FROM DBC.TABLES WHERE Databasename = 'TAFD'
+AND Tablename = 'checking_tran';
+.if activitycount = 0 then .goto no_tab;
+DROP TABLE TAFD.checking_tran;
+.label no_tab; 
+CREATE TABLE checking_tran (
       Tran_Id INTEGER NOT NULL,
       Cust_Id INTEGER NOT NULL,
       Acct_Nbr CHAR(16),
