@@ -65,7 +65,7 @@ node {
         }
         stage ('Deploy') {
             //update dashboard
-             bat "echo 'will update dashbaord...'
+             bat "echo 'will update dashbaord...'"
         }
     } catch (err) {
         currentBuild.result = 'FAILED'
