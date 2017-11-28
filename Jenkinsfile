@@ -7,7 +7,7 @@ node {
         }
         stage ('Build') {
 	   try {        
-			bat "cd SQLSource \n ExecScripts.bat"
+			
 		
 			bat "cd SQLSource \n ExecScripts.bat"
 			def logX = readFile "${env.WORKSPACE}/SQLSource/errorM_logfile.txt"
